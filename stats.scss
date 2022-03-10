@@ -1,0 +1,178 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.color {
+  width: 500px;
+  height: 360px;
+  background-color: hsl(277, 64%, 61%, 0.65);
+  position: absolute;
+  left: 760px;
+  border-radius: 0px 10px 10px 0px;
+}
+.card {
+  display: flex;
+  width: 1060px;
+  height: 360px;
+  margin-left: 200px;
+  margin-top: 170px;
+  .info {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 10px;
+    .script {
+      h1 {
+        margin-left: 116px;
+        margin-right: 96px;
+        margin-top: 50px;
+        text-align: left;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: bold 700;
+      }
+      p {
+        font-family: 'Inter', sans-serif;
+        margin-left: 116px;
+        margin-right: 96px;
+        margin-top: 18px;
+        text-align: left;
+        color: hsla(0, 0%, 100%, 0.75);
+      }
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: 125px 125px 125px;
+      margin-top: 35px;
+      margin-left: 116px;
+      .companies {
+        h2 {
+          font-family: 'Inter', sans-serif;
+          font-size: bold 700;
+          color: white;
+          margin-top: 5px;
+        }
+        h4 {
+          font-family: 'Inter', sans-serif;
+          font-size: 11px;
+          color: hsla(0, 0%, 100%, 0.75);
+        }
+      }
+      .templates {
+        h2 {
+          font-family: 'Inter', sans-serif;
+          font-size: bold 700;
+          color: white;
+          margin-top: 5px;
+        }
+        h4 {
+          font-family: 'Inter', sans-serif;
+          font-size: 11px;
+          color: hsla(0, 0%, 100%, 0.75);
+        }
+      }
+      .queries {
+        h2 {
+          font-family: 'Inter', sans-serif;
+          font-size: bold 700;
+          color: white;
+          margin-top: 5px;
+        }
+        h4 {
+          font-family: 'Inter', sans-serif;
+          font-size: 11px;
+          color: hsla(0, 0%, 100%, 0.75);
+        }
+      }
+    }
+  }
+
+  img {
+    height: 360px;
+    width: 500px;
+    border-radius: 0px 10px 10px 0px;
+  }
+  .color {
+    width: 10px;
+    height: 360px;
+    background-color: white;
+  }
+}
+@media only screen and (max-width: 375px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  .color {
+    width: 303px;
+    height: 260px;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    left: 40px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 800px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .info {
+      margin-left: 10px;
+      width: 303px;
+      height: 550px;
+      border-radius: 0px 0px 10px 10px;
+
+      .script {
+        h1 {
+          margin-left: 10px;
+          margin-right: 10px;
+          text-align: center;
+        }
+        p {
+          text-align: center;
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+      .stats {
+        display: grid;
+        grid-template-columns: 125px;
+        margin-top: 40px;
+        margin-left: 120px;
+        .templates {
+          margin-top: 10px;
+          h2 {
+            margin-left: 9px;
+          }
+        }
+        .companies {
+          h2 {
+            margin-left: 7px;
+          }
+        }
+        .queries {
+          margin-top: 10px;
+          h2 {
+            margin-left: 9px;
+          }
+          h4 {
+            margin-left: 11px;
+          }
+        }
+      }
+    }
+  }
+  .picture {
+    img {
+      margin-bottom: 0px;
+      margin-left: 10px;
+      height: 260px;
+      width: 303px;
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+}
